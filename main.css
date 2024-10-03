@@ -1,0 +1,226 @@
+body{
+    background-color: #ffcf2;
+    color: #252422;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    margin: 0 100px 0 100px;
+}
+@media screen(max-width:360px) and (min-width:460px){
+    body{
+        width:100%;
+        margin: 0 2px 0 2px;
+    }
+}
+
+#home{
+    margin-top:55px;
+    height:60vh;
+    align-content:center;
+}
+.description{
+    display:grid;
+    grid-template-columns:400px 600px 200px;
+    height:50vh;
+    align-content:center;
+}
+
+.name{
+    margin-top:-15px;
+    font-weight: 900;
+    
+}
+
+.prof{
+    display:flex;
+    flex:inline;
+    justify-content:center;
+    
+}
+.prof img{
+    width:300px;
+    height:300px;
+    border-radius:200px;
+}
+.showcase{
+    position:absolute;
+    right:100px;
+}
+
+
+#About-me{
+    align-content:center;
+    width:auto;
+    height:60vh;
+}
+.table{
+    display:grid;
+    grid-template-columns:300px 300px 300px;
+    justify-content:center;
+    text-align:center;
+
+}
+.first-box{
+    padding-right:10px;
+}
+.third-box{
+    padding-left:10px;
+}
+.Abt-txt{
+    text-align: center;
+    
+}
+.Abt-txt h2{
+    margin-bottom:15px;
+}
+.table img{
+    width:100px;
+    height:100px;
+}
+
+#Skills{
+    width:auto;
+    height:70vh;
+    align-content:center;
+}
+.skills{
+    text-align: center;
+    align-items:center;
+    height:60vh;
+}
+.skill-set{
+    margin-top:35px;
+    display:grid;
+    grid-template-rows:100px 100px 30px 100px;
+    align-content: center;
+    row-gap:15px;
+}
+.first-four{
+    display:flex;  
+    justify-content:space-evenly;
+    
+}
+.second-three{
+    display:flex;
+    justify-content:space-evenly;
+    
+}
+.third-three{
+    display:flex;
+    justify-content:space-evenly;
+    
+    
+}
+.skill-set img{
+    
+    width:70px;
+    height:70px;
+}
+
+#Projects{
+    align-content:center;
+    width:auto;
+    height:65vh;
+}
+.project-container{
+    display:grid;
+    grid-template-rows:300px;
+    grid-template-columns:300px 300px 300px 300px;
+    justify-content:center;
+    align-items:center;
+    
+}
+.header h2{
+    text-align:center;
+    margin-bottom:25px;
+}
+.card-body{
+    padding:10px;
+}
+.read{
+    text-align:center;
+    padding:30px;
+}
+.read-more{
+    background-color:#252422;
+    color:white;
+    border:none;
+    font-size:small;
+    width:100px;
+    height:35px;
+}
+
+#Experience{
+    width:auto;
+    height:60vh;
+    align-content:center;
+}
+.experience-container p{
+    width:1000px;
+}
+.exper-1{
+    display:flex;
+    justify-content:space-between;
+}
+.exp-high p{
+    text-align:right;
+}
+
+
+#Contact{
+    width:auto;
+    height:60vh;
+    align-content:center;
+}
+.contact-us{
+    display:grid;
+    grid-template-columns:500px 600px;
+    justify-content:space-between;
+}
+.hi-1{
+    font-size:3rem;
+}
+.social img{
+    width:30px;
+    height:30px;
+    
+}
+.social a{
+    margin:10px;
+}
+.social{
+    list-style: none;  
+}
+.contact-form{
+    width:400px;
+    height:45vh;
+    border:#252422;
+    align-content:center;
+    border-radius:5px;
+
+}
+.contact-form ul{
+   align-content:center;
+}
+.contact-form ul li{
+    list-style:none;
+    
+}
+.contact-form ul li input{
+    width:300px;
+    padding:10px;
+    border-left: 0;
+    border-right:0;
+    border-top:0;
+    
+}
+.contact-form button{
+    background-color:#252422;
+    border:none;
+    color:white;
+    font-size:15px;
+    width:300px;
+    text-align:center;
+}
+.extra{
+    height:100px;
+}
